@@ -1,0 +1,3 @@
+content	copytitleurl	chrome/content/
+overlay	chrome://browser/content/browser.xul	chrome://copytitleurl/content/copytitleurl.xul
+
