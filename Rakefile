@@ -56,7 +56,7 @@ task :create_extension_xpi => [:create_chrome_jar, :create_chrome_manifest, :cre
     version_number = element.text
   end
 
-  sh "cd #{BUILD_DIR} && zip -qr -9 ../../#{EXTENSION_NAME}-#{version_number}-fx.xpi *"
+  sh "cd #{BUILD_DIR} && zip -qr -9 ../../#{EXTENSION_NAME}-#{version_number}.xpi *"
   rm_rf "build"
 end
 
