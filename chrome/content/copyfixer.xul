@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <overlay id="copyfixer" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/x-javascript" src="chrome://copytitleurl/content/copyfixer.js"></script>
+  <script type="application/x-javascript" src="chrome://copyfixer/content/copyfixer.js"></script>
   <keyset id="mainKeyset">
     <key id="copyfixer" modifiers="accel" key="C" oncommand="copyfixer();"/>
   </keyset>
