@@ -41,7 +41,7 @@ task :create_install_rdf => ["#{BUILD_DIR}/install.rdf"]
 # and in this case I want to exclude my svn files.
 desc "create the chrome jar file"
 task :create_chrome_jar => [:create_buildchrome_dir] do
-  sh "cd chrome && zip -qr -0 ../#{BUILD_DIR}/chrome/#{EXTENSION_NAME}.jar * -x .git"
+  sh "cd chrome && zip -qr -0 ../#{BUILD_DIR}/chrome/#{EXTENSION_NAME}.jar * -x .git -x \*~"
 end
 
 # this task makes sure the we've created the jar, prepared the manifest and install.rdf
