@@ -6,4 +6,4 @@ Ctrl-C/Command-C copy page title and URL when select nothing.
 
 right click and download. doble click. 右クリックでダウンロードして、ダブルクリックでインストールしてください。
 
-http://github.com/koseki/copyfixer/raw/master/copyfixer-1.0.xpi
+https://addons.mozilla.org/ja/firefox/addon/230354/
