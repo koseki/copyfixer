@@ -7,7 +7,7 @@ function copyfixer() {
 
     var w = window._content;
     var d = w.document;
-    var txt = d.title + '\n' + d.location.href + '\n\n\n';
+    var txt = d.title + '\n' + d.location.href + '\n\n';
     const CLIPBOARD = Components.classes["@mozilla.org/widget/clipboardhelper;1"].getService(Components.interfaces.nsIClipboardHelper);
     CLIPBOARD.copyString(txt);
 }
