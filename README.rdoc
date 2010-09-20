@@ -4,6 +4,4 @@ Ctrl-C/Command-C copy page title and URL when select nothing.
 
 何も選択してない状態で Ctrl-C / Command-C を押すと、ページタイトルとURLをコピーするようになるFirefox add-onです。
 
-right click and download. doble click. 右クリックでダウンロードして、ダブルクリックでインストールしてください。
-
-https://addons.mozilla.org/ja/firefox/addon/230354/
+ https://addons.mozilla.org/ja/firefox/addon/230354
