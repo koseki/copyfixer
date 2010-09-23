@@ -1,7 +1,9 @@
-= Copy Fixer (Firefox add-on)
+= Copy Fixer (Browser extension)
 
-Ctrl-C/Command-C copy page title and URL when select nothing.
+Ctrl-C or Command-C copy page title and URL when select nothing.
 
-何も選択してない状態で Ctrl-C / Command-C を押すと、ページタイトルとURLをコピーするようになるFirefox add-onです。
+何も選択してない状態で Ctrl-C / Command-C を押すと、ページタイトルとURLをコピーするようになるブラウザ機能拡張です。
 
-https://addons.mozilla.org/ja/firefox/addon/230354
+* Firefox: https://addons.mozilla.org/ja/firefox/addon/230354
+* Chrome: https://chrome.google.com/extensions/detail/gkpoieconkiifjafemnnohlegmfpipaa
+
