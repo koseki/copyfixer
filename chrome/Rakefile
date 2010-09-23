@@ -1,0 +1,11 @@
+EXTENSION_NAME="copyfixer-chrome"
+
+require 'json'
+
+task :default => [:package]
+
+task :package do
+  manifest = JSON.parse(File.read("src/manifest.json"))
+  version = manifest["version"]
+  sh "zip -qr copyfixer-chrome-#{version}.zip src -x .git -x \\*~"
+end
