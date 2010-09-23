@@ -1,0 +1,14 @@
+{
+  "name": "Copy Fixer",
+  "version": "1.0.0",
+  "description": "Copy title and URL using Control/Command-C.",
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["copyfixer.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background_page": "background.html"
+}
