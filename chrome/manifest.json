@@ -2,7 +2,13 @@
   "name": "Copy Fixer",
   "version": "1.0.0",
   "description": "Copy title and URL using Control/Command-C.",
-  "content_scripts": [
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "64": "icon64.png"
+   },
+   "content_scripts": [
     {
       "all_frames": true,
       "matches": ["http://*/*", "https://*/*"],
