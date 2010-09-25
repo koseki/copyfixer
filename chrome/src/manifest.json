@@ -1,6 +1,6 @@
 {
   "name": "Copy Fixer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Copy title and URL using Control/Command-C.",
    "icons": {
       "128": "icon128.png",
