@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Copy Fixer</title>
+<script type="text/javascript" charset="utf-8">
+
+safari.application.addEventListener('message',
+    function(evt){
+        if ( evt.name != "copyfixerCopy" ) return;
+        var e = document.getElementById('clipboardArea');
+        e.value = evt.message;
+        e.select();
+        if (! document.execCommand("copy")) {
+            prompt("I want to access Clipboard!", evt.message);
+        }
+    }
+);
+</script>
+</head>
+<body>
+<textarea id="clipboardArea" />
+</body>
+</html>
