@@ -3,10 +3,11 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>{e54defa6-8670-457e-8471-dc6010464f54}</em:id>
     <em:name>Copy Fixer</em:name>
-    <em:version>1.1.1</em:version>
+    <em:version>1.1.2</em:version>
     <em:description>Copy title and URL using Control/Command-C.</em:description>
     <em:creator>KOSEKI Kengo</em:creator>
     <em:type>2</em:type>
+    <em:iconURL>chrome://copyfixer/content/icon64.png</em:iconURL>
     <em:file>
       <Description about="urn:mozilla:extension:file:copyfixer.jar">
         <em:package>content/</em:package>
