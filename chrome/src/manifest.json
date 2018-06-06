@@ -1,4 +1,6 @@
 {
+  //The 'manifest_version' key must be present and set to 2 (without quotes)
+  "manifest_version": 2,
   "name": "Copy Fixer",
   "version": "1.0.3",
   "description": "Copy title and URL using Control/Command-C.",
@@ -16,5 +18,10 @@
       "run_at": "document_end"
     }
   ],
-  "background_page": "background.html"
+  //background_page' requires manifest version of 1 or lower.
+  //"background_page": "background.html"
+  "background":
+  {
+      "page": "background.html"
+  }
 }
